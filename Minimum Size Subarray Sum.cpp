@@ -1,5 +1,4 @@
-class Solution {
-public:
+// Sliding window
     int minSubArrayLen(int target, vector<int>& nums) {
         int left = 0;
         int currSum = 0;
@@ -15,5 +14,4 @@ public:
       // If the condition (ans == INT_MAX) is true, it returns 0 esle answer
         return (ans == INT_MAX) ? 0 : ans;
         }
-};
         
