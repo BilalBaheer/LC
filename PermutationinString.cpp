@@ -1,4 +1,6 @@
- bool checkInclusion(string s1, string s2) {
+// Slidiing Window Approach
+
+bool checkInclusion(string s1, string s2) {
         if(s1.length() > s2.length()) {
             return false;
         }
